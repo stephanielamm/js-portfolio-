@@ -1,10 +1,10 @@
 $(document).ready(function() { init() })
 
-//function init() {
-  //Tabletop.init( { key: 'link here',
-                   //callback: portfolio,
-                   //simpleSheet: true } )
-//};
+function init() {
+//Tabletop.init( { key: 'link here',
+                  //callback: portfolio,
+                  //simpleSheet: true } )
+};
 
 //function portfolio(data, tabletop) {
 	//var clip_data = data;
