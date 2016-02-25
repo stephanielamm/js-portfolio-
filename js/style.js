@@ -1,4 +1,4 @@
-$(document).ready(function() { init() })
+$(document).ready(function() { init()})
 
 function init() {
 //Tabletop.init( { key: 'link here',
@@ -14,6 +14,15 @@ function init() {
 	//	console.log(e.title);
 	//});
 //};
+
+$('.hidden').on('click'), function(){
+	$('.portfolio-expand').removeClass('active');
+	$('.resume-expand').removeClass('active');
+	$('.contact-expand').removeClass('active');
+	$('.about-expand').removeClass('active');
+	$('.home-expand').addClass('active');
+}
+
 
 $('.home').on('click', function(){
 	$('.portfolio-expand').removeClass('active');
