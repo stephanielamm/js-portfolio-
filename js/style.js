@@ -1,7 +1,7 @@
 $(document).ready(function() { init() })
 
 //function init() {
-  //Tabletop.init( { key: '16CvigNSkrGPKT8KH7Te89mspSwsqm4LK_FF2q-wfBZc',
+  //Tabletop.init( { key: 'link here',
                    //callback: portfolio,
                    //simpleSheet: true } )
 //};
