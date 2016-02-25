@@ -44,12 +44,16 @@ nav ul li:hover {
 }
 
 
-.home-expand,
+
 .about-expand,
 .portfolio-expand,
 .contact-expand,
 .resume-expand{
 	display: none;
+}
+
+.home-expand{
+  display:flex;
 }
 
 /*
