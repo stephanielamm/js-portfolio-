@@ -9,7 +9,6 @@
         <link rel="stylesheet" href="css/style.css">
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
-
   </head>
 <body>
     <header>
@@ -18,7 +17,6 @@
     <div class="col-sm-12">
         <nav>
             <ul>
-              <li class="nav-item hidden">HIDDEN</li>
               <li class="nav-item home">HOME</li>
               <li class="nav-item portfolio">PORTFOLIO</li>
               <li class="nav-item about">ABOUT</li>
@@ -30,8 +28,6 @@
     </div>
   </div>
     </header>
-
-    <div class="hidden-expand"></div>
 
     <div class="home-expand">
       <div class="container">
@@ -95,6 +91,11 @@
     <% } %>
     </script>
 -->
+
+<script>
+$( "#result" ).load( "index.html #home-expand" );
+</script>
+
 
 
 

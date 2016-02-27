@@ -15,13 +15,13 @@ function init() {
 	//});
 //};
 
-$('.hidden').on('click'), function(){
-	$('.portfolio-expand').removeClass('active');
-	$('.resume-expand').removeClass('active');
-	$('.contact-expand').removeClass('active');
-	$('.about-expand').removeClass('active');
-	$('.home-expand').addClass('active');
-}
+// 	$("#result").load("index.html"), function(){
+// 		$('.portfolio-expand').removeClass('active');
+// 		$('.resume-expand').removeClass('active');
+// 		$('.contact-expand').removeClass('active');
+// 		$('.about-expand').removeClass('active');
+// 		$('.home-expand').addClass('active');
+// }
 
 
 $('.home').on('click', function(){
